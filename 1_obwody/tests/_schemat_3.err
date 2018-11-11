@@ -1,0 +1,55 @@
+Error in line 11: R 10 100 101
+Error in line 12:  Ra  10  102  103 
+Error in line 13: 	R-1	10	104	105	
+Error in line 14: R1000000000  10  106  107
+Error in line 15: R1000		10		108		109		110
+Error in line 16: R1001	 10	 111
+Error in line 17: R1002 	abc 	112 	113
+Error in line 19: C 10 200 201
+Error in line 20: Ca 10 202 203
+Error in line 21: C-1 10 204 205
+Error in line 22: C1000000000 10 206 207
+Error in line 23: C1000 10 208 209 210
+Error in line 24: C1001 10 211
+Error in line 25: C1002 A_B 212 213
+Error in line 27: D 10 300 301
+Error in line 28: Da 10 302 303
+Error in line 29: D-1 10 304 305
+Error in line 30: D1000000000 10 306 307
+Error in line 31: D1000 10 308 309 310
+Error in line 32: D1001 10 311
+Error in line 33: D1002 A@B 312 313
+Error in line 35: E 10 400 401
+Error in line 36: Ea 10 402 403
+Error in line 37: E-1 10 404 405
+Error in line 38: E1000000000 10 406 407
+Error in line 39: E1000 10 408 409 410
+Error in line 40: E1001 10 411
+Error in line 41: E1002 A+B 412 413
+Error in line 43: T 10 500 501 502
+Error in line 44: Ta 10 503 504 505
+Error in line 45: T-1 10 506 507 508
+Error in line 46: T1000000000 10 509 510 511
+Error in line 47: T1000 10 512 513 514 515
+Error in line 48: T1001 10 516
+Error in line 49: T1002 A=B 517 518 519
+Error in line 51: R11 11 1000 -1
+Error in line 52: R12 12 1000 +0
+Error in line 53: R13 13 1000 a
+Error in line 54: R14 14 1000 1b
+Error in line 55: R15 15 1000 1000000000
+Error in line 56: R16 16 1000 9999999999
+Error in line 57: R17 17 1000 01
+Error in line 58: R21 21 -1 1000
+Error in line 59: R22 22 +0 1000
+Error in line 60: R23 23 a 1000
+Error in line 61: R24 24 1b 1000
+Error in line 62: R25 25 1000000000 1000
+Error in line 63: R26 26 9999999999 1000
+Error in line 64: R27 27 01 1000
+Error in line 65: R03 30 998 999
+Error in line 66: R31a 31 1001 1002
+Error in line 67: R32+ 32 1003 1004
+Error in line 69:  
+Error in line 70: 	
+Error in line 71:    aaa   
