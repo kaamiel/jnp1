@@ -1,4 +1,9 @@
-#!/bin/bash
+#! /bin/bash
+mkdir out
+cp src/* out/
+cp tests/* out/
+cd out
+
 gcc -Wall -Wextra -O2 -std=c11 -c strset_test1.c -o strset_test1.o &&
 g++ -Wall -Wextra -O2 -std=c++17 -c strset.cc -o strset.o &&
 g++ -Wall -Wextra -O2 -std=c++17 -c strsetconst.cc -o strsetconst.o &&

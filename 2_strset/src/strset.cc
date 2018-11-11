@@ -16,9 +16,6 @@ namespace {
     using StrSet = std::set<std::string>;
     using Map = std::unordered_map<unsigned long, StrSet>;
 
-    // During the execution @nextId stores value of ID assigned to next set created by strset_new().
-    unsigned long nextId = 0;
-
     // Function that returns static map, which maps IDs of sets of strings with afromentioned sets.
     Map &map() {
         static auto *res = new Map();
@@ -53,8 +50,12 @@ namespace jnp1 {
 
     unsigned long strset_new() {
         printDebug("strset_new()");
+
+        // During the execution @nextId stores value of ID assigned to next set created by strset_new().
+        static unsigned long nextId = 0;
+
         // In case of @nextId overflow:
-        assert (nextId != std::numeric_limits<unsigned long>::max());
+        assert(nextId != std::numeric_limits<unsigned long>::max());
 
         StrSet set;
         map().insert(make_pair(nextId, set));
