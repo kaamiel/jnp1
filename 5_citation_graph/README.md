@@ -1,4 +1,4 @@
-Autorzy rozwiązania: Piotr Wójcik, Kamil Dubil
+Autorzy rozwiązania: Kamil Dubil, Jacek Ciszewski
 
 # Citation Graph (graf cytowań)
 
@@ -15,14 +15,14 @@ z publikacją cytującą.
 
 Należy zaimplementować szablon klasy, która reprezentuje taki graf.
 
-```
+```cpp
 template <class Publication> CitationGraph;
 ```
 
 Klasa `Publication` reprezentuje informacje o publikacji. Jej implementacja
 zostanie dostarczona w stosownym czasie.
 
-Klasa `CitationGraph` powinna udostępniać następujący interfejs.
+Klasa `CitationGraph` powinna udostępniać następujący interfejs:
 
 ```cpp
 // Tworzy nowy graf. Tworzy także węzeł publikacji o identyfikatorze stem_id.
